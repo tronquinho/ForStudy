@@ -10,9 +10,9 @@ public class Sample7_10 {
     LocalTime timeOf = LocalTime.of(21, 3, 20);
     LocalDateTime dtOf = LocalDateTime.of(2015, 10, 1, 21, 3, 20);
     
-    LocalDate dateP = LocalDate.parse("2015-10-1");
+    LocalDate dateP = LocalDate.parse("2015-10-01");
     LocalTime timeP = LocalTime.parse("21:03:20");
-    LocalDateTime dtP = LocalDateTime.of("2015-10-1T21:03:20");
+    LocalDateTime dtP = LocalDateTime.parse("2015-10-01T21:03:20");
     
     System.out.println("LocalDate.now       : " + dateNow);
     System.out.println("LocalTime.now       : " + timeNow);
